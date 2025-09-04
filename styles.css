@@ -1148,6 +1148,7 @@ body {
     }
     
     .system-note {
+        display: none !important;
         margin: 8px 0 0 !important;
         padding: 8px !important;
         font-size: 11px !important;
