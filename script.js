@@ -1,3 +1,15 @@
+// Disable Right Click Inspect and F12 button
+document.addEventListener('contextmenu', event => event.preventDefault());
+document.addEventListener('keydown', event => {
+    if (event.key === 'F12' || (event.ctrlKey && event.shiftKey && event.key === 'I')) {
+        event.preventDefault();
+    }
+});
+
+
+
+
+
 // কনফিগারেশন - Google Sheets API এবং Sheet IDs
 const CONFIG = {
     API_KEY: 'AIzaSyCiEgyS_hZLOPYfntM2b5imvAx9iIWBSHY',
