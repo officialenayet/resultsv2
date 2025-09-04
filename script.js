@@ -15,7 +15,7 @@ const CONFIG = {
     PRELOAD_ENABLED: true,
     MAX_RETRIES: 3,
     RETRY_DELAY: 1000,
-    CAPTCHA_ENABLED: false  // ক্যাপচা চালু/বন্ধ করার জন্য - true মানে চালু, false মানে বন্ধ
+    CAPTCHA_ENABLED: true  // ক্যাপচা চালু/বন্ধ করার জন্য - true মানে চালু, false মানে বন্ধ
 };
 
 // DOM Elements - HTML এলিমেন্ট গুলো
