@@ -597,6 +597,7 @@ body {
 /* Result Actions */
 .result-actions {
     margin-top: 30px;
+    margin-bottom: 30px;
     display: flex;
     gap: 15px;
     justify-content: center;
